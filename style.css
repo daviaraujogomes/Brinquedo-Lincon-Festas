@@ -1,3 +1,42 @@
-div.logo {
-    position: left top;
+@charset "UTF-8";
+
+:root {
+
+    --cor001: #F7EDF0;
+    --cor002: #54C6EB;
+    --cor003: #F9DC5C;
+    --cor004: #FB3640;
+    --cor005: #000500;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px 10x var(--cor005);
+    margin-top: 10px;
+    box-shadow: 1px 1px black;
+    background-color: var(--cor001);
+}
+
+.logo{
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.texto{
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: auto;
 }
